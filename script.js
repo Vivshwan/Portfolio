@@ -11,7 +11,7 @@ const skills = [
 const projects = [
   {
     title: 'Stock Price Forecasting',
-    tech: ['Python', 'TensorFlow', 'Streamlit', 'scikit-learn', 'Pandas'],
+    tech: ['Python', 'TensorFlow', 'Streamlit', 'Scikit-learn', 'Pandas'],
     date: 'March 2026 – April 2026',
     metrics: [
       { value: '94%', label: 'R² Score' },
@@ -42,12 +42,65 @@ const projects = [
     ],
     github: 'https://github.com/Vivshwan/Shopper_Spectrum',
     demo: 'https://shopperspectrum-txrwqh2korjorwnawappuro.streamlit.app/'
+  },
+  {
+    title: 'Movie Sentiment Analyzer',
+    tech: ['Python', 'Pandas', 'Django', 'Scikit-learn', 'Natural Language Programmig(NLTK)'],
+    date: 'December 2025 – January 2025',
+    metrics: [
+      { value: '89%', label: 'Accuracy' },
+      { value: '500K+', label: 'IMBD Reviews' } 
+    ],
+    bullets: [
+      'Built a Django web app that predicts POSITIVE/NEGATIVE movie reviews with ~89% accuracy using Logistic Regression and TF-IDF on 50,000 IMDB reviews.',
+      'Developed end-to-end ML pipeline with Scikit-learn and NLTK, featuring real-time predictions, emoji feedback UI, and REST API support.',
+      'Deployed production-ready application with clean interface, error handling, and scalable model serving via Django backend.'
+    ],
+    github: 'https://github.com/Vivshwan/Movie-Sentiment-Analyzer',
+    demo: 'https://shopperspectrum-txrwqh2korjorwnawappuro.streamlit.app/'
+  },
+  {
+    title: 'AgriPredict: Intelligent Crop Price Forecasting',
+    tech: ['Python', 'Pandas', 'Flask', 'Scikit-learn', 'TensorFlow', 'Matplotlib', 'Numpy'],
+    date: 'January 2026 – March 2026',
+    metrics: [
+      { value: '88%', label: ' R² score' },
+      { value: '6.5', label: 'RMSE' },
+      { value: '5.2', label: 'MAE' }
+    ],
+    bullets: [
+      'Developed a hybrid LSTM + XGBoost time-series model for accurate commodity price forecasting with interactive charts and tabular data outputs.',
+      'Built a Flask web application with CSV upload functionality, real-time predictions, and training dataset access for seamless user interaction.',
+      'Created a multi-stakeholder recommendation engine generating actionable insights for farmers, consumers, and government agencies based on price trends.'
+    ],
+    github: 'https://github.com/Vivshwan/Agri_Predict_Crop-Price-Predictor',
+    demo: 'https://shopperspectrum-txrwqh2korjorwnawappuro.streamlit.app/'
+  },
+  {
+    title: 'Bitcoin Sentiment Trader Analysis',
+    tech: ['Python', 'Pandas', 'Flask', 'Matplotlib', 'Seaborn', 'SciPy', 'NumPy'],
+    date: 'April 2026 – May 2026',
+    metrics: [
+      { value: '40-60%', label: 'Better Performance' },
+      { value: '15-25%', label: 'Higher Win Rate' },
+      { value: '10K+', label: 'Trades Analyzed' }
+    ],
+    bullets: [
+      'Built a Flask web dashboard analyzing 10,000+ Hyperliquid trades merged with Bitcoin Fear & Greed Index data to uncover market psychology patterns in trader performance.',
+      'Identified optimal leverage levels across sentiment regimes, discovering that high leverage (>20x) is only profitable in Greed markets with 40-60% better trader performance.',
+      'Created statistical validation framework with p-values and effect sizes, generating actionable strategy recommendations that can improve returns by 25-40%.'
+    ],
+    github: 'https://github.com/Vivshwan/bitcoin-sentiment-trading-analysis',
+    demo: 'https://your-bitcoin-dashboard-link.streamlit.app/'
   }
 ];
 
 const certifications = [
   { title: 'Microsoft SC-900 — Security, Compliance & Identity', issuer: 'Microsoft', date: 'June 2025', icon: '🛡️', link: 'https://drive.google.com/file/d/1FqLeRtsHOMTQXz63Epzw4mKDxM_SzHWi/view?usp=sharing' },
-  { title: 'Applied Machine Learning in Python', issuer: 'Coursera', date: 'December 2025', icon: '🤖', link: 'https://www.coursera.org/account/accomplishments/verify/9VBX45BANQLY' }
+  { title: 'Applied Machine Learning in Python', issuer: 'Coursera', date: 'December 2025', icon: '🤖', link: 'https://www.coursera.org/account/accomplishments/verify/9VBX45BANQLY' },
+  { title: 'AWS Technical Essentials', issuer: 'AWS Training and Certification', date: 'September 2025', icon: '🌩️', link: 'https://drive.google.com/file/d/1VQo-r2AvP7JE3MTq_NqUQQ7v2EeKdJJ7/view?usp=sharing' },
+  { title: 'AWS Certification Course', issuer: 'IntelliPaat', date: 'September 2025', icon: '📜', link: 'https://intellipaat.com/academy/certificate-link/?Yz0xNjU0JnU9Mjg4NDIwJmV4dD0x' },
+  { title: 'Google IT Support', issuer: 'Google', date: 'February 2026', icon: '🖥️', link: 'https://drive.google.com/file/d/1CLvILKaO9LvsgWghbVRO_erRqBmreEQy/view?usp=drive_link' }
 ];
 
 const achievements = [
@@ -59,8 +112,8 @@ const achievements = [
   },
   {
     icon: '⚡',
-    text: 'Completed <strong>ServiceNow Virtual Internship</strong> (SmartBridge + AICTE) — 8+ modules including ServiceNow Administration, Agentic AI, Automated Test Framework (ATF), Reports, and CSA Exam Prep.',
-    link: 'https://drive.google.com/file/d/1kNgw5O3L49NhpWE_Z_YxM31XjJUcGD5x/view?usp=sharing',
+    text: 'Co-authored & published <strong>Kavach: An Intelligent AI-powered Next Gen Polymorphic Malware Detection App</strong> in IJARESM.',
+    link: 'https://www.ijaresm.com/kavach-an-intelligent-ai-powered-next-gen-polymorphic-malware-detection-app',
     linkLabel: 'View Certificate'
   }
 ];
