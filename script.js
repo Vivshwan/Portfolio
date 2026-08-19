@@ -114,7 +114,7 @@ const achievements = [
     icon: '⚡',
     text: 'Co-authored & published <strong>Kavach: An Intelligent AI-powered Next Gen Polymorphic Malware Detection App</strong> in IJARESM.',
     link: 'https://www.ijaresm.com/kavach-an-intelligent-ai-powered-next-gen-polymorphic-malware-detection-app',
-    linkLabel: 'View Certificate'
+    linkLabel: 'View Publication'
   }
 ];
 
