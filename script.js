@@ -44,6 +44,24 @@ const projects = [
     demo: 'https://shopperspectrum-txrwqh2korjorwnawappuro.streamlit.app/'
   },
   {
+    title: 'Voice Shopping Assistant',
+    tech: ['Python', 'Django', 'NLP', 'Web Speech API', 'PostgreSQL', 'Render'],
+    date: 'August 2026 - August 2026',
+    metrics: [
+      { value: '90%' ,label:'NLP accuracy'},
+      { value: '100%',label:'Mobile-responsive'},
+      { value: '15+', label: 'API endpoints'}
+    ],
+    bullets: [
+      'Built voice-controlled shopping list manager with custom NLP processor for intent detection and entity extraction.',
+      'Developed 15+ REST API endpoints with JWT authentication for third-party integration.',
+      'Implemented smart suggestions, seasonal recommendations, substitutes, and price alerts.',
+      ' Deployed on Render with PostgreSQL, achieving 100% mobile-responsive design.',
+    ],
+    github: 'https://github.com/Vivshwan/VoiceAssistant',
+    demo: 'https://voice-shopping-assistant-r8s9.onrender.com'
+  },
+  {
     title: 'Movie Sentiment Analyzer',
     tech: ['Python', 'Pandas', 'Django', 'Scikit-learn', 'Natural Language Programmig(NLTK)'],
     date: 'December 2025 – January 2025',
