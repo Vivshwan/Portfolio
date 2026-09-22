@@ -114,7 +114,7 @@ const projects = [
 ];
 
 const certifications = [
-  { title: 'Microsoft SC-900 — Security, Compliance & Identity', issuer: 'Microsoft', date: 'June 2025', icon: '🛡️', link: 'https://drive.google.com/file/d/1FqLeRtsHOMTQXz63Epzw4mKDxM_SzHWi/view?usp=sharing' },
+  { title: 'Microsoft SC-900 — Security, Compliance & Identity', issuer: 'Microsoft', date: 'June 2025', icon: '🛡️', link: 'https://drive.google.com/file/d/1iIFikbXWVdSGNwObk67UvlLIDsELVXJ4/view?usp=sharing' },
   { title: 'Applied Machine Learning in Python', issuer: 'Coursera', date: 'December 2025', icon: '🤖', link: 'https://www.coursera.org/account/accomplishments/verify/9VBX45BANQLY' },
   { title: 'AWS Technical Essentials', issuer: 'AWS Training and Certification', date: 'September 2025', icon: '🌩️', link: 'https://drive.google.com/file/d/1VQo-r2AvP7JE3MTq_NqUQQ7v2EeKdJJ7/view?usp=sharing' },
   { title: 'AWS Certification Course', issuer: 'IntelliPaat', date: 'September 2025', icon: '📜', link: 'https://intellipaat.com/academy/certificate-link/?Yz0xNjU0JnU9Mjg4NDIwJmV4dD0x' },
