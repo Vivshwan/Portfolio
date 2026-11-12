@@ -24,7 +24,7 @@ const projects = [
       'Built a responsive React/TypeScript frontend featuring JWT authentication, persistent MongoDB chat history, an analytics dashboard, and Web Speech API voice-to-text.'
     ],
     github: 'https://github.com/Vivshwan/Customer-Support-AI', 
-    demo: 'https://customer-support-ai-git-main-vivshwans-projects.vercel.app'
+    demo: 'https://customer-support-ai-three-chi.vercel.app'
   },
   {
     title: 'Stock Price Forecasting',
