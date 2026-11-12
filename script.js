@@ -10,6 +10,23 @@ const skills = [
 
 const projects = [
   {
+    title: 'Multi-Agent AI Customer Support Assistant',
+    tech: ['Python', 'FastAPI', 'React', 'LangChain', 'FAISS', 'MongoDB'],
+    date: 'July 2026 – August 2026',
+    metrics: [
+      { value: '100%', label: 'Retrieval Accuracy' },
+      { value: '5', label: 'Specialized Agents' },
+      { value: '95', label: 'Vector Chunks' }
+    ],
+    bullets: [
+      'Architected a full-stack multi-agent AI system routing customer queries to 5 specialized LLM agents (Billing, Technical, Product, Complaint, FAQ) via intent classification.',
+      'Engineered a RAG pipeline using FAISS and Gemini Embeddings (95 chunks), achieving 100% top-1 retrieval accuracy and zero hallucinations via strict context-grounding.',
+      'Built a responsive React/TypeScript frontend featuring JWT authentication, persistent MongoDB chat history, an analytics dashboard, and Web Speech API voice-to-text.'
+    ],
+    github: 'https://github.com/Vivshwan/Customer-Support-AI', 
+    demo: 'https://customer-support-ai-git-main-vivshwans-projects.vercel.app'
+  },
+  {
     title: 'Stock Price Forecasting',
     tech: ['Python', 'TensorFlow', 'Streamlit', 'Scikit-learn', 'Pandas'],
     date: 'March 2026 – April 2026',
