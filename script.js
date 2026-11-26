@@ -110,23 +110,6 @@ const projects = [
     ],
     github: 'https://github.com/Vivshwan/Agri_Predict_Crop-Price-Predictor',
     demo: 'https://shopperspectrum-txrwqh2korjorwnawappuro.streamlit.app/'
-  },
-  {
-    title: 'Bitcoin Sentiment Trader Analysis',
-    tech: ['Python', 'Pandas', 'Flask', 'Matplotlib', 'Seaborn', 'SciPy', 'NumPy'],
-    date: 'April 2026 – May 2026',
-    metrics: [
-      { value: '40-60%', label: 'Better Performance' },
-      { value: '15-25%', label: 'Higher Win Rate' },
-      { value: '10K+', label: 'Trades Analyzed' }
-    ],
-    bullets: [
-      'Built a Flask web dashboard analyzing 10,000+ Hyperliquid trades merged with Bitcoin Fear & Greed Index data to uncover market psychology patterns in trader performance.',
-      'Identified optimal leverage levels across sentiment regimes, discovering that high leverage (>20x) is only profitable in Greed markets with 40-60% better trader performance.',
-      'Created statistical validation framework with p-values and effect sizes, generating actionable strategy recommendations that can improve returns by 25-40%.'
-    ],
-    github: 'https://github.com/Vivshwan/bitcoin-sentiment-trading-analysis',
-    demo: 'https://your-bitcoin-dashboard-link.streamlit.app/'
   }
 ];
 
